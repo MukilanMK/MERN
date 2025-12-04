@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .o{
+            border: 5px solid red;
+            width: 60px;
+            height: 80px;
+            background-color: red;
+            margin-top: 10px;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            z-index: 5;
+        }
+        
+        .t{
+            border: 5px solid gold;
+            width: 60px;
+            height: 80px;
+            background-color: gold;
+            margin-top: 10px;
+            position: relative;
+            z-index: 6;
+        }
+        .tr{
+            border: 5px solid green;
+            width: 60px;
+            height: 80px;
+            background-color: green;
+            margin-top: 10px;
+            position: relative;
+            bottom: 50px;
+            left: 50px;
+            z-index: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="o">STOP</div>
+    <div class="t">WAIT</div>
+    <div class="tr">GO</div>
+</body>
+</html>
